@@ -1,6 +1,6 @@
 ---
 layout: post-index
-title: "Welcome to the Neo-HPSTR Blog"
+title: "Welcome to the Neolithic-HPSTR Blog"
 description: "Describe this nonsense."
 tags: [Jekyll, theme, themes, responsive, blog, modern]
 comments: false
@@ -31,8 +31,8 @@ comments: false
     {% endif %}
   </header>
   <div class="entry-content">
-    {% if post.content contains "<!-- more -->" %}
-    {{ post.content | split:"<!-- more -->" | first % }}
+    {% if post.content contains site.excerpt_separator %}
+    {{ post.content | split: site.excerpt_separator | first % }}
     {% else %}
       {{ post.content }}
     {% endif %}
