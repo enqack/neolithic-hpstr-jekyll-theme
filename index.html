@@ -43,7 +43,7 @@ comments: false
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn">Previous</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}" class="btn">Previous</a>
   {% else %}
     <a class="btn btn-disabled" role="button">Previous</a>
   {% endif %}
@@ -54,16 +54,16 @@ comments: false
       {% if page == paginator.page %}
         <em>{{ page }}</em>
       {% elsif page == 1 %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="current-page">{{ page }}</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}" class="current-page">{{ page }}</a>
       {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="current-page">{{ page }}</a>
+        <a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}" class="current-page">{{ page }}</a>
       {% endif %}
     </li>
     {% endfor %}
   </ul>
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn">Next</a>
+    <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}" class="btn">Next</a>
   {% else %}
     <a class="btn btn-disabled" role="button">Next</a>
   {% endif %}
