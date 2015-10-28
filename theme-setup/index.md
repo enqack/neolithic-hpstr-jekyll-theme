@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Theme Setup
-description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
+description: "Instructions on how to install and customize the modern Jekyll theme Neolithic-HPSTR."
 image:
   feature: abstract-11.jpg
   credit: dargadgetz
@@ -9,18 +9,18 @@ image:
 share: true
 ---
 
-General notes and suggestions for customizing **HPSTR**.
+General notes and suggestions for customizing **Neolithic-HPSTR**.
 
 ## Basic Setup for a new Jekyll site
 
 1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
-2. Fork the [HPSTR Jekyll Theme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork).
+2. Fork the [Neolithic-HPSTR Jekyll Theme repo](https://github.com/enqack/neolithic-hpstr-jekyll-theme/fork).
 3. Clone the repo you just forked and rename it.
 4. Edit `_config.yml` to personalize your site.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-<div markdown="0"><a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/enqack/neolithic-hpstr-jekyll-theme/archive/master.zip" class="btn">Download the Theme</a></div>
 
 **Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
 {: .notice}
@@ -37,9 +37,9 @@ General notes and suggestions for customizing **HPSTR**.
 title:            Site Title
 description:      Describe your website here.
 disqus_shortname: shortname
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# Your site's domain goes here (eg: //enqack.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              //mmistakes.github.io
+url:              //enqack.github.io
 
 # Owner/author information
 owner:
@@ -56,7 +56,7 @@ owner:
   instagram:      
   flickr:         
   tumblr:         
-  # google plus id, include the '+', eg +mmistakes
+  # google plus id, include the '+', eg +enqack
   google_plus:    +yourid
 
 # Analytics and webmaster tools stuff goes here
@@ -96,7 +96,7 @@ bundle exec jekyll serve
 ## Folder Structure
 
 {% highlight bash %}
-hpstr-jekyll-theme/
+neolithic-hpstr-jekyll-theme/
 ├── _includes
 |    ├── browser-upgrade.html       # prompt to upgrade browser on < IE8
 |    ├── footer.html                # site footer
@@ -275,7 +275,7 @@ From the theme's root, use `grunt` concatenate JavaScript files, and optimize .j
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@enqack](http://twitter.com/enqack) or [file a GitHub Issue](https://github.com/enqack/neolithic-hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ---
 
