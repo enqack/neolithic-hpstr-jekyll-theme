@@ -1,8 +1,8 @@
 # Neolithic-HPSTR Jekyll Theme
-Based on http://aronbordin.com/neo-hpstr-jekyll-theme
+Based on https://github.com/aron-bordin/neo-hpstr-jekyll-theme
 * Based on https://github.com/mmistakes/hpstr-jekyll-theme
 
-Demo: http://enqack.net/neolithic-hpstr-jekyll-theme
+Demo: http://enqack.github.io/neolithic-hpstr-jekyll-theme
 
 # Live Demo
 

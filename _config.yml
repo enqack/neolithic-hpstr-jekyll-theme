@@ -1,12 +1,12 @@
 title:            Blog Title
 description:      Describe your website here.
-disqus_shortname: neohpstrtheme
+disqus_shortname: neolithichpstrtheme
 reading_time:     true
 words_per_minute: 200
 logo:             images/logo.png
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-# url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: http://enqack.github.io/neolithic-hpstr-jekyll-theme
 
 menu:
   - title: 'Home'
@@ -22,36 +22,40 @@ menu:
     url: '#'
     submenu:
       - title: 'highlighter'
-        url: '/code-highlighting-post/'
+        url: '/intro/code-highlighting-post/'
       - title: 'intro'
-        url: '/readability-post/'
+        url: '/intro/readability-post/'
 
 # Owner/author information
 owner:
   name:           Your name
-  site:           http://aronbordin.com
+  site:           http://enqack.net
   avatar:         images/avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter: aron_bordin
+  twitter: enqack
   facebook:
-  github: aron-bordin
+  github: enqack
   stackexchange:
   linkedin:
   instagram:
   flickr:
   tumblr:
   # google plus id, include the '+', eg +AronBordin
-  google_plus:    +yourid
+  google_plus:
 
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://github.com/enqack"
+  - title: "bitbucket"
+    url: "https://bitbucket.com/enqack"
+  - title: "twitter"
+    url: "https://twitter.com/enqack"
+  # - title: "linkedin"
+  #   url: "https://br.linkedin.com/in/<username>"
+  # - title: "youtube"
+  #   url: "https://www.youtube.com/channel/<channel-id>"
 # Background image to be tiled on all pages
 background:
 
@@ -78,7 +82,7 @@ permalink:   /:categories/:title/
 # Amount of post to show on home page
 paginate: 5
 
-excerpt_separator: "<!--more-->"
+excerpt_separator: "<!-- more -->"
 
 kramdown:
   auto_ids: true
