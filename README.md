@@ -4,10 +4,6 @@ Based on https://github.com/aron-bordin/neo-hpstr-jekyll-theme
 
 Demo: http://enqack.github.io/neolithic-hpstr-jekyll-theme
 
-# Live Demo
-
-You can see it running [here](http://enqack.net/neolithic-hpstr-jekyll-theme/).
-
 
 ## What HPSTR brings to the table:
 
