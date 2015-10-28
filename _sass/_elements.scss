@@ -146,6 +146,18 @@ figure.center img{
     color: $info;
   }
 }
+.btn-disabled {
+  background-color: $white;
+  color: $primary;
+  border-color: $white;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
 
 // Well
 // --------------------------------------------------
