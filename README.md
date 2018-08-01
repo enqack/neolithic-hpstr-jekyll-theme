@@ -4,6 +4,10 @@ Based on https://github.com/aron-bordin/neo-hpstr-jekyll-theme
 
 Demo: http://enqack.github.io/neolithic-hpstr-jekyll-theme
 
+## Neolithic HPSTR changes:
+
+* Short header section with post title
+
 
 ## What HPSTR brings to the table:
 
@@ -27,4 +31,4 @@ Demo: http://enqack.github.io/neolithic-hpstr-jekyll-theme
 
 Neolithic-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
 
-To learn how to install and use this theme check out the [Setup Guide(Original)](http://enqack.github.io/neolithic-hpstr-jekyll-theme/theme-setup/) for more information.
+To learn how to install and use this theme check out the [Setup Guide](http://enqack.github.io/neolithic-hpstr-jekyll-theme/theme-setup/) for more information.
